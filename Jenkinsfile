@@ -2,10 +2,15 @@ pipeline {
   
   agent any
   
-    stages {
+  stages {
+    
+    stage("Example Demo Jenkinsfile"){
       
-        echo 'Testing'
-     
+        steps{
+                  echo 'Jenkinsfile Using Success!!'
+          }
+      
+                               }
           
     }
     
