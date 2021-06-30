@@ -6,7 +6,7 @@ pipeline{
       
         state("Example Demo Jenkinsfile"){
           
-          step{
+          steps{
                   echo 'Jenkinsfile Using Success!!'
           }
       
